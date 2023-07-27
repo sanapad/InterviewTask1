@@ -12,6 +12,24 @@ The tasks are not so much a formal barrier as an opportunity to show yourself an
 The task should take no more than 3-5 hours to complete.
 No more than 3 days are suggested for the fulfillment of the terms of reference.
 
-## Task 1 (took 3,5 hours) of 2
+## Task 1 of 2 (took 3,5 hours)
 There is a root folder. This folder can contain text files, as well as other folders. Other folders can also contain text files and folders (the level of nesting can be any).
 Find all text files, sort them by name and merge the contents into a single text file.
+
+## Using
+launch:
+```bash
+java -jar ./Task1.jar
+```
+output:
+```bash
+File result.txt has been created/updated in the root folder
+```
+check the result:
+```bash
+cat result.txt
+```
+output:
+```bash
+1 2 3 4 5 6 7 8 9 10
+```
